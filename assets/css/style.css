@@ -2,8 +2,18 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.logo h2 {
-  font-family: 'Pacifico', cursive;
+.logo {
+  font-weight: 800;
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-weight: 400;
+  color: #fff;
+}
+
+nav {
+  position: fixed;
 }
 
 .hero-section {
@@ -20,4 +30,30 @@ h1 {
 
 .icon {
   background-color: #fff;
+}
+
+.carousel-indicators {
+  top: 200px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.oscuro {
+  background: #000f08;
+  color: #ffffff;
+  margin: auto;
+}
+
+.oscuro a {
+  color:  #ffffff;
+  text-decoration: none;
+}
+
+.experiencia {
+  
 }
